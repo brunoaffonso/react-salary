@@ -3,24 +3,28 @@ const inss = [
     id: 1,
     valor_min: 0,
     valor_max: 1045,
+    diferenca: 1045,
     aliquota: 0.075,
   },
   {
     id: 2,
     valor_min: 1045.01,
     valor_max: 2089.6,
+    diferenca: 1044.6,
     aliquota: 0.09,
   },
   {
     id: 3,
     valor_min: 2089.61,
     valor_max: 3134.4,
+    diferenca: 1044.8,
     aliquota: 0.12,
   },
   {
     id: 4,
     valor_min: 3134.41,
     valor_max: 6101.06,
+    diferenca: 2966.66,
     aliquota: 0.14,
   },
 ];
@@ -62,3 +66,15 @@ const irrf = [
     deducao: 869.36,
   },
 ];
+
+function round(value) {
+  return +value.toFixed(2);
+}
+
+function calculateINSS(baseINSS) {
+  let currentINSS = 0;
+}
+
+function calculateIRRF(baseIRRF) {
+  let currentIRRF = 0;
+}
