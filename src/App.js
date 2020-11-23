@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import DisabledInput from './components/DisabledInput';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      salary: '',
+    };
+  }
+  render() {
+    return (
+      <div>
+        <h2>Cálculo de Salário</h2>
+        <label>
+          Salário
+          <input type="text" value={this.salary} />
+          <DisabledInput description={'Base INSS'} />
+          <DisabledInput description={'Desconto INSS'} />
+          <DisabledInput description={'Base IRRF'} />
+          <DisabledInput description={'Desconto IRRF'} />
+          <DisabledInput description={'Salário Loquido'} />
+        </label>
+      </div>
+    );
+  }
 }
-
-export default App;
