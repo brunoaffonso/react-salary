@@ -1,0 +1,30 @@
+.desabledInput {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 10px;
+}
+
+.inss {
+  background-color: #e67e22;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: transparent;
+}
+
+.irrf {
+  background-color: #c0392b;
+  color: transparent;
+}
+
+.liquid {
+  background-color: #16a085;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: transparent;
+}

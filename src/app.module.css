@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.input {
+  margin: 10px;
+  padding: 10px;
+}
