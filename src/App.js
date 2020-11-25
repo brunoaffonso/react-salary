@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import DisabledInput from './components/DisabledInput';
 import { calculateDiscounts } from './helpers/Calculations';
+import LineChart from './components/LineChart';
 
 import css from './app.module.css';
 import Bar from './components/Bar';
+import PieChart from './components/PieChart';
 
 export default class App extends Component {
   constructor() {
@@ -98,6 +100,8 @@ export default class App extends Component {
               liquid={totalDiscountsPercentage}
             />
           </div>
+          <LineChart />
+          <PieChart />
         </label>
       </div>
     );
