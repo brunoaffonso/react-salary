@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Line } from 'react-chartjs-2';
+import css from './components.module.css';
 
 const data = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -31,8 +32,7 @@ const data = {
 export default class LineChart extends Component {
   render() {
     return (
-      <div>
-        <h2>Resumo</h2>
+      <div className={css.chart}>
         <Line data={data} />
         {/* <Pie ref="chart" data={data} width={100} height={50} /> */}
       </div>

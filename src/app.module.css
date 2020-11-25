@@ -16,3 +16,10 @@
   margin: 10px;
   padding: 10px;
 }
+
+.flexCharts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}

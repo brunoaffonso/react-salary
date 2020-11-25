@@ -1,22 +1,28 @@
 import React, { Component } from 'react';
 import { Pie } from 'react-chartjs-2';
-
-const data = {
-  labels: ['Red', 'Blue', 'Yellow'],
-  datasets: [
-    {
-      data: [300, 50, 100],
-      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-      hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-    },
-  ],
-};
+import css from './components.module.css';
 
 export default class PieChart extends Component {
   render() {
+    const { inss, irrf, liquid } = this.props;
+
+    const data = {
+      labels: ['INSS', 'IRRF', 'Salário Líquido'],
+      datasets: [
+        {
+          data: [`${inss}`, `${irrf}`, `${liquid}`],
+          backgroundColor: ['#e67e22', '#c0392b', '#16a085'],
+          hoverBackgroundColor: [
+            'rgba(230, 126, 34, 0.8)',
+            'rgba(192, 57, 43, 0.8)',
+            'rgba(22, 160, 133, 0.8)',
+          ],
+        },
+      ],
+    };
+
     return (
-      <div>
-        <h2>Salário</h2>
+      <div className={css.chart}>
         <Pie data={data} />
       </div>
     );

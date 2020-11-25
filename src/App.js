@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import DisabledInput from './components/DisabledInput';
 import { calculateDiscounts } from './helpers/Calculations';
-import LineChart from './components/LineChart';
-import LineChart2 from './components/LineChart2';
-
 import css from './app.module.css';
-import Bar from './components/Bar';
 import PieChart from './components/PieChart';
+import Bar from './components/Bar';
 
 export default class App extends Component {
   constructor() {
@@ -101,9 +98,17 @@ export default class App extends Component {
               liquid={totalDiscountsPercentage}
             />
           </div>
-          <LineChart />
-          <LineChart2 />
-          <PieChart />
+          <div className={css.flexCharts}>
+            <PieChart
+              inss={inssDiscountPercentage}
+              irrf={irrfDiscountPercentage}
+              liquid={totalDiscountsPercentage}
+              inssValue={inssDiscount}
+              irrfValue={irrfDiscount}
+              liquidValue={liquidSalary}
+            />
+            {/*<LineChart />*/}
+          </div>
         </label>
       </div>
     );
