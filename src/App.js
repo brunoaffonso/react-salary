@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DisabledInput from './components/DisabledInput';
 import { calculateDiscounts } from './helpers/Calculations';
 import LineChart from './components/LineChart';
+import LineChart2 from './components/LineChart2';
 
 import css from './app.module.css';
 import Bar from './components/Bar';
@@ -101,6 +102,7 @@ export default class App extends Component {
             />
           </div>
           <LineChart />
+          <LineChart2 />
           <PieChart />
         </label>
       </div>
