@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/salario/static/css/main.8dd554e8.chunk.css",
+    "main.js": "/salario/static/js/main.af9508d3.chunk.js",
+    "main.js.map": "/salario/static/js/main.af9508d3.chunk.js.map",
+    "runtime-main.js": "/salario/static/js/runtime-main.dff2b384.js",
+    "runtime-main.js.map": "/salario/static/js/runtime-main.dff2b384.js.map",
+    "static/css/2.b0300f7a.chunk.css": "/salario/static/css/2.b0300f7a.chunk.css",
+    "static/js/2.36805370.chunk.js": "/salario/static/js/2.36805370.chunk.js",
+    "static/js/2.36805370.chunk.js.map": "/salario/static/js/2.36805370.chunk.js.map",
+    "index.html": "/salario/index.html",
+    "static/css/2.b0300f7a.chunk.css.map": "/salario/static/css/2.b0300f7a.chunk.css.map",
+    "static/css/main.8dd554e8.chunk.css.map": "/salario/static/css/main.8dd554e8.chunk.css.map",
+    "static/js/2.36805370.chunk.js.LICENSE.txt": "/salario/static/js/2.36805370.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff2b384.js",
+    "static/css/2.b0300f7a.chunk.css",
+    "static/js/2.36805370.chunk.js",
+    "static/css/main.8dd554e8.chunk.css",
+    "static/js/main.af9508d3.chunk.js"
+  ]
+}
