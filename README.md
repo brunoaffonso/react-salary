@@ -8,11 +8,11 @@ This project is a tax calculator of a formal worker according brazilians laws.
 ## Installation
 Building and running the project in your local dev environment is very easy. Be sure you have [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/) installed, then follow the directions below.
 
-1. Clone the source code.
+1. Clone the source code. <br>
 	`git clone https://github.com/brunoaffonso/react-salary.git`
-2. Install development dependencies.
+2. Install development dependencies. <br>
 	`yarn install` or `npm install`
-3. Run a local development server.
+3. Run a local development server. <br>
 	`yarn start` or `npm start`
 
 ## Technologies
