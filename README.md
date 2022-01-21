@@ -1,17 +1,15 @@
 # React Salary   ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Finished-green)
-### :page_facing_up: Description
+## Description
 
 This project is a tax calculator of a formal worker according brazilians laws.
 
-**Project developed for learning purposes**
-<br>
-<br>
-### :open_file_folder: See React-Salary in Action
+## Project in Action
 [Live demo](http://brunoaffonso.com/react-salary)
-<br>
-<br>
-### :heavy_check_mark: Technologies
+
+## Technologies
 <a href="https://reactjs.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="androidStudio" width="40" height="40"/> </a>
-<br>
-<br>
-### ![Badge em Desenvolvimento](https://img.shields.io/badge/Licence-MIT-green)
+
+
+## License
+![Badge em Desenvolvimento](https://img.shields.io/badge/Licence-MIT-green)
+**Project developed for learning purposes.**
